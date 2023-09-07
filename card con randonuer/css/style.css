@@ -1,0 +1,150 @@
+* { font-family: Lato, sans-serif; }
+
+body { margin: 0; }
+.container{
+  background-color: #0d011f;
+}
+
+.wrapper { padding: 50px 25px; display: grid; }
+.filter1 {
+  gap: 5px;
+  align-items: center;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+#input{
+  width: 30%;
+  height: 25px;
+  border-radius: 10px;
+}
+#search{
+  width: 20%;
+  height: 25px;
+  border-radius: 10px;
+  background-color: rgb(133, 224, 255);
+}
+#reset{
+  width: 20%;
+  height: 25px;
+  border-radius: 10px;
+  background-color: rgb(133, 19, 4);
+}
+.title {
+  color: #6d6d6d;
+  letter-spacing: 9px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-size: 27px;
+}
+
+
+.employees li {
+  list-style: none;
+  display: inline-block;
+  padding: 4px;
+  margin: 10px 0;
+  border: 2px #d1d1d1 solid;
+  background-color: rgb(23, 34, 59);
+  border-radius: 6px;
+  width: 400px;
+  display: flex;
+}
+
+.employees li:hover {
+  opacity: .8;
+  background-color: #220034;
+  cursor: pointer;
+}
+
+.employees {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+img {
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.info {
+  display: inline-block;
+  color: #878787;
+  margin: auto;
+  margin-left: 0;
+
+}
+
+h4 { color: rgb(148, 221, 255); }
+
+h4,
+p,
+span {
+  margin: 5px 0 5px;
+  font-size: .9em;
+}
+
+.thumbnail {
+  width: 90px;
+  height: 90px;
+}
+
+input { height: 20px; }
+
+#search,
+#reset {
+  height: 25px;
+}
+
+.username { display: none; }
+
+/* MODAL WINDOW */
+
+.overlay {
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  text-align: center;
+}
+
+.lightbox {
+  margin-top: 120px;
+  padding: 20px;
+  width: 310px;
+  background-color: #0d0a31;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+.main-info {
+  border-bottom: solid 1px #31002e;;
+  padding: 20px 0;
+}
+
+.email2,
+.city2,
+.details { color: #878787; }
+
+.details { padding: 20px 0; }
+
+.address,
+.cell,
+.username2 { margin-bottom: 10px; }
+
+#previous,
+#next {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  border-radius: 50%;
+}
+
+#previous { float: left; }
+
+#next { float: right; }
